@@ -4,8 +4,8 @@ title: Hackintosh To Go
 subtitle: 将macOS High Sierra开发环境迁移到移动U盘中
 tags: 
     -黑苹果
-    -Hackintosh
     -macOS
+    -Hackintosh
 published: true
 ---
 
