@@ -93,12 +93,5 @@ service-worker: true
 
 # Friends
 friends: [
-    {
-        title: "HZLUG",
-        href: "https://hzlug.org/"
-    }
-    {
-        title: "KaliCYH"
-        href: "www.hangzhouam.com"
-    }
+
 ]
