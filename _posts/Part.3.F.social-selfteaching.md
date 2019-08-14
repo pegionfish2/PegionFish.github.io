@@ -1,3 +1,12 @@
+---
+layout: post
+title: 自学是门手艺
+subtitle: 0x03 自学者的社交
+tags:  自学是门手艺 转载
+author: 李笑来
+published: true
+---
+###### 在您使用前请注意，本系列书籍全部转载自李笑来先生([@xiaolao](https://github.com/xiaolai))于GitHub上发表的电子书([the-craft-of-selfteaching](https://github.com/selfteaching/the-craft-of-selfteaching))的Markdown版本。原文使用CC-BY-NC-ND版权协议，故您可在遵守此协议的前提下自由地从任何该电子书的副本中提取您想要的信息并*同样*以此协议发行，但本博客其他文章*并非*一定采用此协议。所有属于此电子书的博文全部挂有“自学是门手艺”的Tag，若您喜欢本书请前往此书的GitHub仓库，本人*不对*此电子书的内容负*任何*责任，**一切责权皆归原作者李笑来先生所有**。
 
 # 自学者的社交
 
