@@ -2,7 +2,7 @@
 layout: post
 author: Bob Guo
 title: 为什么手机SoC的发展速度远比PC芯片的发展速度快？
-date: 2019-12-14
+date: 2020-1-5
 tags: 随笔
 published: true
 ---
@@ -11,7 +11,7 @@ published: true
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;多的不说，直接解题。
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;X86架构的芯片在制程推进的速度上确实远远低于ARM架构的芯片，这主要是由以下几个原因构成的：  
 
-1. PC业界正在萎缩，而智能手机与IoT仍是明日黄花。
+1. PC业界正在萎缩，而智能手机与IoT仍是未来。
 
 2. Intel作为少有的非Fabless半导体企业并无足够经济实力推进制程
 
