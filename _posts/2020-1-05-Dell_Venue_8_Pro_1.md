@@ -17,7 +17,7 @@ published: true
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我手上的这个款式是5830，搭载一颗1.8Ghz的Intel Atom Z3740D CPU，2GB的DDR3L内存，以及32GB eMMC闪存。当然，这点闪存容量在安装Windows 10后所剩无几，这时就需要使用TF卡进行拓展了。  
 
 ![Alt text](/img/v8p/存储.jpg)
-*所有的Galgame全部放在TF卡上，除了Chrome都是UWP
+*所有的Galgame全部放在TF卡上，除了Chrome都是UWP*
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;至于使用体验么，只能说中规中矩。可能是因为我接触了太多高分屏设备的原因，1280x800的分辨率在八寸的屏幕上仍然存在严重的大果粒问题，但同样也带来出众的续航和性能表现。我的使用主要是玩一些小游戏和Galgame，而这样的需求这台平板能够很好的满足。电池的寿命大约是85%左右，也能保证三到四小时的工作时间。作为娱乐平板，它暂且是满足了我的需求的。  
 
