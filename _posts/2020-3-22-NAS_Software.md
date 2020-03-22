@@ -3,7 +3,7 @@ layout: post
 author: Bob Guo
 title: 垃圾佬的家庭网络中心 （2）
 subtitle: 软件篇
-date: 2020-3-1
+date: 2020-3-22
 tags: 网络 NAS
 published: true
 ---
