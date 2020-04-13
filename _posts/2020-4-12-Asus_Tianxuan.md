@@ -10,10 +10,13 @@ published: false #write true to publish this article.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;最近华硕天选在知乎的PC区引发了极大的争议，不仅围绕在天选是否值得购买上，也围绕在天选团队通过大批量购买水军而不是投入提升产品力的营销思路上。本人有幸作为一个电子垃圾反对者被天选团队购买的水军大批量攻击过，能跟瞎蒙钱老师同框是我的荣幸啊。有鉴于此，我决定来记录下水军撒泼的几个主要思路并对此进行针对分析。由于天选水军撒泼的实况已经录屏发至[B站](https://www.bilibili.com/video/BV1Gz41187zB)，我在此不会针对特定的水军言论进行分析。此文章中涉及的思路皆是确实存在的水军言论。  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;华硕天选这台机器有什么问题？首先，在配置的安排上极其不合理。Zen2架构的Ryzen 7 4800H是一颗无论单线程和多线程都十分优秀的处理器，然而高性能的代价就是高发热和高耗电。即使Zen2的IPC再怎么优秀、TSMC 7nm工艺再怎么能控制功耗，这仍然是一颗实打实的八核高性能处理器。就算AMD的TDP是满载功耗（45w），无论搭载什么显卡在双烤情况下连TDP都达不到这种成绩是“散热较好”？对我来说这种说法完全是颠倒黑白。  
 而显卡方面，1660ti给80w，2060给90w，有一说一双烤有这成绩真的可以接受，但是，（当然接下来就是重头戏了），RTX作为图灵卡的主打特色，其目的就是为了让现代游戏在RTRC、DLSS等技术的加持下画面更加精美更加迷人，而无论多迷人的风景在这张1080p，45NTSC的144hz高刷新率IPS屏幕上都如同糊了奥力给一般。  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;如果各位不知道高色域屏幕和低色域屏幕的区别，可以看我这里用我的Pixel 2拍摄的图片。
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;如果各位不知道高色域屏幕和低色域屏幕的区别，可以看我这里用我的Pixel 2拍摄的图片。显示器显示的图片是来自B站的《吹响吧！上低音号 誓言的终章》网页端播放页面的[背景图](https://i0.hdslb.com/bfs/bangumi/41b81fbf82792a27665b491f32a9f42015e06ada.jpg)。
 ![Alt text](/img/Tianxuan/QuanJiaFu.jpg)
+所有四部设备，分别是惠普Elitebook 2570P，运行Windows 10与火狐浏览器、微软Surface Pro 4平板电脑，同样运行Windows 10和火狐浏览器，以及海信B2312B与戴尔P2314H显示器，分别通过VGA与miniDP接口连接运行Arch Linux和火狐浏览器的ThinkPad T430笔记本电脑。
 ![Alt text](/img/Tianxuan/2570p.jpg)
+2570P上的TN面板，型号为AUO206C，是一块12.5英寸的1366x768P的TN面板，覆盖45%NTSC。
 ![Alt text](/img/Tianxuan/SurfacePro4.jpg)
+Surface Pro 4平板电脑仍然是三星面板，LTL123YL01-001，12.3英寸，PLS技术，分辨率2736x1824，覆盖100%SRGB色域。
 ![Alt text](/img/Tianxuan/hisense.jpg)
 ![Alt text](/img/Tianxuan/Dell.jpg)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;可能屏幕上看不出什么端倪但是一旦对比起来这种低色域的垃圾面板令人无法忍受。可惜我ThinkPad T430的自带TN屏已经损坏无法给各位展示，本来效果应该会更好。
