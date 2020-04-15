@@ -5,7 +5,8 @@ title: 论为什么华硕天选是实打实的电子垃圾
 subtitle: 兼论为什么你不应该选择天选
 date: 2020-4-12
 tags: 笔记本 天选
-published: false #write true to publish this article.
+published: true 
+#write true to publish this article.
 ---
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;最近华硕天选在知乎的PC区引发了极大的争议，不仅围绕在天选是否值得购买上，也围绕在天选团队通过大批量购买水军而不是投入提升产品力的营销思路上。本人有幸作为一个电子垃圾反对者被天选团队购买的水军大批量攻击过，能跟瞎蒙钱老师同框是我的荣幸啊。有鉴于此，我决定来记录下水军撒泼的几个主要思路并对此进行针对分析。由于天选水军撒泼的实况已经录屏发至[B站](https://www.bilibili.com/video/BV1Gz41187zB)，我在此不会针对特定的水军言论进行分析。此文章中涉及的思路皆是确实存在的水军言论。  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;华硕天选这台机器有什么问题？首先，在配置的安排上极其不合理。Zen2架构的Ryzen 7 4800H是一颗无论单线程和多线程都十分优秀的处理器，然而高性能的代价就是高发热和高耗电。即使Zen2的IPC再怎么优秀、TSMC 7nm工艺再怎么能控制功耗，这仍然是一颗实打实的八核高性能处理器。就算AMD的TDP是满载功耗（45w），无论搭载什么显卡在双烤情况下连TDP都达不到这种成绩是“散热较好”？对我来说这种说法完全是颠倒黑白。  
