@@ -4,8 +4,8 @@ SEOTitle: 隔雨听竹的编程实验室 | Bob's Coding Lab
 header-img: img/post-bg-desk.jpg
 email: boblao0714@gmail.com
 description: "业精于勤荒于嬉，Keep Coding，Keep Improving"
-keyword: "Bob，Bob Guo，Bob's Coding Lab，隔雨听竹，隔雨听竹的编程实验室，鸽鱼"
-url: "https://blog.bobguo.top/"          # your host, for absolute URL
+keyword: "Bob，Bob Guo，Bob's Coding Lab，隔雨听竹，隔雨听竹的编程实验室，鸽鱼, PegionFIsh"
+url: "https://pegionfish.github.io/"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/BobGuoYilong/BobGuoYilong.github.io" # you code repository
 
@@ -73,7 +73,7 @@ gitalk:
 
 # Google Analytics
 ga_track_id: 'UA-136382680-1'            # Format: UA-xxxxxx-xx
-ga_domain: blog.bobguo.top/              # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
+ga_domain: auto             # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
 
 
 
@@ -93,5 +93,20 @@ service-worker: true
 
 # Friends
 friends: [
-
+    {
+        title: "E哥",
+        href: "https://edward40.com/"
+    },
+    {
+        title: "Main包",
+        href: "https://himself65.com/"
+    },
+    {
+        title: "OC",
+        href: "https://originco.de/"
+    },
+    {
+        title: "moi某",
+        href: "https://rain.moimo.me/"
+    },
 ]
