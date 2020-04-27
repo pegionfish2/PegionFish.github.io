@@ -4,7 +4,7 @@ author: Bob Guo
 title: 0202年还在用32位平板是什么体验？
 subtitle: Venue 8 Pro 拆机篇
 date: 2020-1-5
-tags: 随笔
+tags: 平板 戴尔
 published: true
 ---
 
