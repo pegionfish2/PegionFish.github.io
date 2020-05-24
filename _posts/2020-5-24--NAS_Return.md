@@ -32,7 +32,7 @@ OpenWRT的源代码托管在[这里](https://github.com/openwrt/openwrt)，你�
 OpenWRT编译的时候会需要用到一些依赖包，这些包一般都可以在你发行版的官方仓库里找到。打开终端，输入
 > sudo apt-get install gcc g++ build-essential asciidoc  binutils bzip2 gawk gettext git libncurses5-dev libz-dev patch flex bison make autoconf texinfo unzip sharutils subversion ncurses-term zlib1g-dev ccache upx lib32gcc1 libc6-dev-i386 uglifyjs git-core gcc-multilib p7zip p7zip-full msmtp libssl-dev libglib2.0-dev xmlto qemu-utils automake libtool  -y
 
-这会自动安装所有需要的依赖。
+这会自动安装所有需要的依赖。请注意，如果你的发行版不是预装Python 2的，比如Ubuntu 20.04或Arch Linux，你就需要手动安装Python 2，否则在下面的流程中你会遇到大问题的。
 # 0x101 配置编译环境并获取软件包源代码
 在编译OpenWRT的时候，Like all other large scale projects，你需要配置一个编译环境。OpenWRT有一个脚本可以获取编译时需要的软件包的源代码，将它一起编译到你的OpenWRT里。  
 为了使用这个脚本，你需要输入以下指令：
@@ -40,3 +40,18 @@ OpenWRT编译的时候会需要用到一些依赖包，这些包一般都可以�
 proxychains ./scripts/feeds install -a
 
 脚本会自动完成，之后就可以开始配置并编译OpenWRT了。
+# 0x110 配置并编译
+输入
+> make defconfig
+
+测试你的编译环境。如果它返回了如图所示的configuration written to .config， 那你的编译环境已经布置完成，接下来就要开始配置并编译了。  
+输入
+> make menuconfig
+
+进入我们熟悉的Linux内核编译配置界面。由于OpenWRT是一个跨平台的项目，我们首先要选择编译使用的平台。我这里因为是为本机编译，所以在Target System中选择x86，拉到最底就能看见了。  
+第二步是进入Subtarget，并选择x86_64。64位操作系统可以更好地利用现代设备的高性能，而且也不会对编译出来的文件尺寸造成多少影响-我可是有128G固态硬盘放在这儿的（笑）  
+Target和Subtarget的选择应当由你的机型而定。如果你的路由器使用了其他的硬件，这里就需要调整成其他硬件使用的配置文件。对于曾经有过Linux编译经验的人来说，除了这里其他的地方都应该知道什么意思并可以自行处理，本文也就不再过多赘述。  
+当你的配置文件已经完成，现在只要保存配置文件并退出，输入
+> make V=99
+
+即可开始编译。
