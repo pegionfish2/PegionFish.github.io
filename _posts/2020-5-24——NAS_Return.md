@@ -33,12 +33,10 @@ OpenWRT编译的时候会需要用到一些依赖包，这些包一般都可以�
 > sudo apt-get install gcc g++ build-essential asciidoc  binutils bzip2 gawk gettext git libncurses5-dev libz-dev patch flex bison make autoconf texinfo unzip sharutils subversion ncurses-term zlib1g-dev ccache upx lib32gcc1 libc6-dev-i386 uglifyjs git-core gcc-multilib p7zip p7zip-full msmtp libssl-dev libglib2.0-dev xmlto qemu-utils automake libtool  -y
 
 这会自动安装所有需要的依赖。
-# 0x101 配置编译环境
-在编译OpenWRT的时候，Like all other large scale projects，你需要配置一个编译环境。OpenWRT有一个脚本检查编译环境是否配置完成，如果没有它就会自动配置。  
+# 0x101 配置编译环境并获取软件包源代码
+在编译OpenWRT的时候，Like all other large scale projects，你需要配置一个编译环境。OpenWRT有一个脚本可以获取编译时需要的软件包的源代码，将它一起编译到你的OpenWRT里。  
 为了使用这个脚本，你需要输入以下指令：
 >proxychains ./scripts/feeds update -a  
 proxychains ./scripts/feeds install -a
 
-脚本会自动完成，之后就可以开始编译OpenWRT了。
-# 0x110 配置编译脚本
-由于OpenWRT本质上是一个Linux发行版，就如同任何人编译Linux时一样，你需要针对你编译的环境进行配置，才能编译出可以正常使用的OpenWRT环境。
+脚本会自动完成，之后就可以开始配置并编译OpenWRT了。
