@@ -1,25 +1,25 @@
 # Site settings
-title: Bob's Coding Lab
-SEOTitle: 隔雨听竹的编程实验室 | Bob's Coding Lab
+title: 测试用平台
+SEOTitle: PegionFish2 Test Bench
 header-img: img/post-bg-desk.jpg
 email: boblao0714@gmail.com
-description: "业精于勤荒于嬉，Keep Coding，Keep Improving"
-keyword: "Bob，Bob Guo，Bob's Coding Lab，隔雨听竹，隔雨听竹的编程实验室，鸽鱼, PegionFIsh"
-url: "https://pegionfish.github.io/"          # your host, for absolute URL
+description: "test"
+keyword: ""
+url: "https://pegionfish2.github.io/"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/BobGuoYilong/BobGuoYilong.github.io" # you code repository
+github_repo: "https://github.com/pegionfish2/pegionfish2.github.io" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "动画 V曲 游戏 ラノベ カゲプロ最高た　格里芬指挥官 FPS玩家 UP主 金🐦🐦的电波曲真好听"
-sidebar-avatar: /img/隔雨听竹2.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-about-description: "请各位早日开始使用Git"
+sidebar-avatar: /img/avatar_m.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
 # SNS settings
 RSS: true
 zhihu_username:     ge-yu-ting-zhu-82
-github_username:    BobGuo0714
+github_username:    pegionfish2
 
 
 
@@ -53,17 +53,16 @@ kramdown:
 
 
 # 评论系统
-# Disqus（https://disqus.com/）
-# disqus_username: qiubaiying
+
 
 # Gitalk
 gitalk:
-  enable: true    #是否开启Gitalk评论
-  clientID: 4794b781b3c300b9ca7c                            #生成的clientID
-  clientSecret: 55ee2becf199077a4a308415b5376d18b553066a    #生成的clientSecret
-  repo: BobGuoYilong.github.io    #仓库名称
-  owner: BobGuoYilong    #github用户名
-  admin: BobGuoYilong
+  enable: false    #是否开启Gitalk评论
+  clientID:                           #生成的clientID
+  clientSecret:     #生成的clientSecret
+  repo: pegionfish2.github.io    #仓库名称
+  owner: pegionfish2    #github用户名
+  admin: pegionfish2
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 
@@ -72,7 +71,7 @@ gitalk:
 # Analytics settings
 
 # Google Analytics
-ga_track_id: 'UA-136382680-1'            # Format: UA-xxxxxx-xx
+ga_track_id: ''            # Format: UA-xxxxxx-xx
 ga_domain: auto             # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
 
 
@@ -94,19 +93,7 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "E哥",
-        href: "https://edward40.com/"
-    },
-    {
-        title: "Main包",
-        href: "https://himself65.com/"
-    },
-    {
-        title: "OC",
-        href: "https://originco.de/"
-    },
-    {
-        title: "moi某",
-        href: "https://rain.moimo.me/"
+        title: "鸽鱼",
+        href: "https://pegionfish.github.io/"
     },
 ]
